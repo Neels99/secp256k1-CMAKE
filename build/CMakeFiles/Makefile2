@@ -55,19 +55,39 @@ CMAKE_BINARY_DIR = /home/sl33n/repository/test_secp256k1/build
 # The main recursive "all" target.
 all: CMakeFiles/main_test.dir/all
 all: CMakeFiles/secp256k1.dir/all
+all: libs/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: libs/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main_test.dir/clean
 clean: CMakeFiles/secp256k1.dir/clean
+clean: libs/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory libs
+
+# Recursive "all" directory target.
+libs/all:
+
+.PHONY : libs/all
+
+# Recursive "preinstall" directory target.
+libs/preinstall:
+
+.PHONY : libs/preinstall
+
+# Recursive "clean" directory target.
+libs/clean:
+
+.PHONY : libs/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main_test.dir

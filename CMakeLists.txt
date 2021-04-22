@@ -11,7 +11,7 @@ if (MSVC)
 endif()
 
 #set(prefix "${CMAKE_BINARY_DIR}/deps")
-set(prefix "${CMAKE_CURRENT_LIST_DIR}/libs")
+set(prefix "${CMAKE_CURRENT_LIST_DIR}/libs/secp256k1")
 set(SECP256K1_LIBRARY "${prefix}/lib/${CMAKE_STATIC_LIBRARY_PREFIX}secp256k1${CMAKE_STATIC_LIBRARY_SUFFIX}")
 set(SECP256K1_INCLUDE_DIR "${prefix}/include")
 
@@ -28,7 +28,7 @@ ExternalProject_Add(
     URL https://github.com/chfast/secp256k1/archive/ac8ccf29b8c6b2b793bc734661ce43d1f952977a.tar.gz
     URL_HASH SHA256=02f8f05c9e9d2badc91be8e229a07ad5e4984c1e77193d6b00e549df129e7c3a
     PATCH_COMMAND ${CMAKE_COMMAND} -E copy_if_different
-        ${CMAKE_CURRENT_LIST_DIR}/secp256k1/CMakeLists.txt <SOURCE_DIR>
+        ${prefix}/cmake/CMakeLists.txt <SOURCE_DIR>
     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>
                -DCMAKE_POSITION_INDEPENDENT_CODE=${BUILD_SHARED_LIBS}
                -DCMAKE_C_COMPILER=${CMAKE_C_COMPILER}
@@ -49,8 +49,8 @@ set_property(TARGET Secp256k1 PROPERTY IMPORTED_LOCATION_RELEASE "${SECP256K1_LI
 set_property(TARGET Secp256k1 PROPERTY INTERFACE_INCLUDE_DIRECTORIES "${SECP256K1_INCLUDE_DIR}")
 add_dependencies(Secp256k1 secp256k1)
 
-#add_subdirectory(secp256k1)
+add_subdirectory(libs)
 
 add_executable(main_test main.cpp)
 target_link_libraries(main_test Secp256k1)
-target_link_directories(main_test PUBLIC libs libs/include libs/lib libs/src ${CMAKE_SOURCE_DIR})
+# target_link_directories(main_test PUBLIC libs libs/include libs/lib libs/src ${CMAKE_SOURCE_DIR})

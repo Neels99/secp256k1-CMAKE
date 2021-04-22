@@ -56,74 +56,74 @@ include CMakeFiles/secp256k1.dir/progress.make
 CMakeFiles/secp256k1: CMakeFiles/secp256k1-complete
 
 
-CMakeFiles/secp256k1-complete: ../libs/src/secp256k1-stamp/secp256k1-install
-CMakeFiles/secp256k1-complete: ../libs/src/secp256k1-stamp/secp256k1-mkdir
-CMakeFiles/secp256k1-complete: ../libs/src/secp256k1-stamp/secp256k1-download
-CMakeFiles/secp256k1-complete: ../libs/src/secp256k1-stamp/secp256k1-update
-CMakeFiles/secp256k1-complete: ../libs/src/secp256k1-stamp/secp256k1-patch
-CMakeFiles/secp256k1-complete: ../libs/src/secp256k1-stamp/secp256k1-configure
-CMakeFiles/secp256k1-complete: ../libs/src/secp256k1-stamp/secp256k1-build
-CMakeFiles/secp256k1-complete: ../libs/src/secp256k1-stamp/secp256k1-install
+CMakeFiles/secp256k1-complete: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-install
+CMakeFiles/secp256k1-complete: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-mkdir
+CMakeFiles/secp256k1-complete: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-download
+CMakeFiles/secp256k1-complete: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-update
+CMakeFiles/secp256k1-complete: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-patch
+CMakeFiles/secp256k1-complete: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-configure
+CMakeFiles/secp256k1-complete: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-build
+CMakeFiles/secp256k1-complete: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-install
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sl33n/repository/test_secp256k1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'secp256k1'"
 	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/build/CMakeFiles
 	/usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/build/CMakeFiles/secp256k1-complete
-	/usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-done
+	/usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-done
 
-../libs/src/secp256k1-stamp/secp256k1-install: ../libs/src/secp256k1-stamp/secp256k1-build
+../libs/secp256k1/src/secp256k1-stamp/secp256k1-install: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sl33n/repository/test_secp256k1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'secp256k1'"
-	cd /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-build && /usr/bin/cmake -Dmake=$(MAKE) -P /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-install-Debug.cmake
-	cd /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-build && /usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-install
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build && /usr/bin/cmake -Dmake=$(MAKE) -P /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-install-Debug.cmake
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build && /usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-install
 
-../libs/src/secp256k1-stamp/secp256k1-mkdir:
+../libs/secp256k1/src/secp256k1-stamp/secp256k1-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sl33n/repository/test_secp256k1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'secp256k1'"
-	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/src/secp256k1
-	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-build
-	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs
-	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/tmp
-	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp
-	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/src
-	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp
-	/usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-mkdir
+	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1
+	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build
+	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/secp256k1
+	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/secp256k1/tmp
+	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp
+	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/secp256k1/src
+	/usr/bin/cmake -E make_directory /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp
+	/usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-mkdir
 
-../libs/src/secp256k1-stamp/secp256k1-download: ../libs/src/secp256k1-stamp/secp256k1-urlinfo.txt
-../libs/src/secp256k1-stamp/secp256k1-download: ../libs/src/secp256k1-stamp/secp256k1-mkdir
+../libs/secp256k1/src/secp256k1-stamp/secp256k1-download: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-urlinfo.txt
+../libs/secp256k1/src/secp256k1-stamp/secp256k1-download: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-mkdir
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sl33n/repository/test_secp256k1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'secp256k1'"
-	cd /home/sl33n/repository/test_secp256k1/libs/src && /usr/bin/cmake -P /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/download-secp256k1.cmake
-	cd /home/sl33n/repository/test_secp256k1/libs/src && /usr/bin/cmake -P /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/verify-secp256k1.cmake
-	cd /home/sl33n/repository/test_secp256k1/libs/src && /usr/bin/cmake -P /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/extract-secp256k1.cmake
-	cd /home/sl33n/repository/test_secp256k1/libs/src && /usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-download
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src && /usr/bin/cmake -P /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/download-secp256k1.cmake
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src && /usr/bin/cmake -P /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/verify-secp256k1.cmake
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src && /usr/bin/cmake -P /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/extract-secp256k1.cmake
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src && /usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-download
 
-../libs/src/secp256k1-stamp/secp256k1-update: ../libs/src/secp256k1-stamp/secp256k1-download
+../libs/secp256k1/src/secp256k1-stamp/secp256k1-update: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-download
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sl33n/repository/test_secp256k1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'secp256k1'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-update
+	/usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-update
 
-../libs/src/secp256k1-stamp/secp256k1-patch: ../libs/src/secp256k1-stamp/secp256k1-download
+../libs/secp256k1/src/secp256k1-stamp/secp256k1-patch: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-download
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sl33n/repository/test_secp256k1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'secp256k1'"
-	cd /home/sl33n/repository/test_secp256k1/libs/src/secp256k1 && /usr/bin/cmake -E copy_if_different /home/sl33n/repository/test_secp256k1/secp256k1/CMakeLists.txt /home/sl33n/repository/test_secp256k1/libs/src/secp256k1
-	cd /home/sl33n/repository/test_secp256k1/libs/src/secp256k1 && /usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-patch
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1 && /usr/bin/cmake -E copy_if_different /home/sl33n/repository/test_secp256k1/libs/secp256k1/cmake/CMakeLists.txt /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1 && /usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-patch
 
-../libs/src/secp256k1-stamp/secp256k1-configure: ../libs/tmp/secp256k1-cfgcmd.txt
-../libs/src/secp256k1-stamp/secp256k1-configure: ../libs/src/secp256k1-stamp/secp256k1-update
-../libs/src/secp256k1-stamp/secp256k1-configure: ../libs/src/secp256k1-stamp/secp256k1-patch
+../libs/secp256k1/src/secp256k1-stamp/secp256k1-configure: ../libs/secp256k1/tmp/secp256k1-cfgcmd.txt
+../libs/secp256k1/src/secp256k1-stamp/secp256k1-configure: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-update
+../libs/secp256k1/src/secp256k1-stamp/secp256k1-configure: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sl33n/repository/test_secp256k1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'secp256k1'"
-	cd /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-build && /usr/bin/cmake -P /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-configure-Debug.cmake
-	cd /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-build && /usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-configure
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build && /usr/bin/cmake -P /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-configure-Debug.cmake
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build && /usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-configure
 
-../libs/src/secp256k1-stamp/secp256k1-build: ../libs/src/secp256k1-stamp/secp256k1-configure
+../libs/secp256k1/src/secp256k1-stamp/secp256k1-build: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sl33n/repository/test_secp256k1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'secp256k1'"
-	cd /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-build && /usr/bin/cmake -E echo_append
-	cd /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-build && /usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-build
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build && /usr/bin/cmake -E echo_append
+	cd /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build && /usr/bin/cmake -E touch /home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-build
 
 secp256k1: CMakeFiles/secp256k1
 secp256k1: CMakeFiles/secp256k1-complete
-secp256k1: ../libs/src/secp256k1-stamp/secp256k1-install
-secp256k1: ../libs/src/secp256k1-stamp/secp256k1-mkdir
-secp256k1: ../libs/src/secp256k1-stamp/secp256k1-download
-secp256k1: ../libs/src/secp256k1-stamp/secp256k1-update
-secp256k1: ../libs/src/secp256k1-stamp/secp256k1-patch
-secp256k1: ../libs/src/secp256k1-stamp/secp256k1-configure
-secp256k1: ../libs/src/secp256k1-stamp/secp256k1-build
+secp256k1: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-install
+secp256k1: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-mkdir
+secp256k1: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-download
+secp256k1: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-update
+secp256k1: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-patch
+secp256k1: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-configure
+secp256k1: ../libs/secp256k1/src/secp256k1-stamp/secp256k1-build
 secp256k1: CMakeFiles/secp256k1.dir/build.make
 
 .PHONY : secp256k1

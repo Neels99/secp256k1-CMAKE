@@ -79,7 +79,7 @@ main_test_EXTERNAL_OBJECTS =
 
 main_test: CMakeFiles/main_test.dir/main.cpp.o
 main_test: CMakeFiles/main_test.dir/build.make
-main_test: ../libs/lib/libsecp256k1.a
+main_test: ../libs/secp256k1/lib/libsecp256k1.a
 main_test: CMakeFiles/main_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sl33n/repository/test_secp256k1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main_test.dir/link.txt --verbose=$(VERBOSE)

@@ -1,7 +1,5 @@
 #include <iostream>
 
-#include "secp256k1.h"
-
 #include <secp256k1.h>
 #include <secp256k1_ecdh.h>
 #include <secp256k1_recovery.h>

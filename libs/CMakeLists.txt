@@ -1,0 +1,1 @@
+link_directories(secp256k1/include secp256k1/src secp256k1/lib)

@@ -1,10 +1,10 @@
 # Hashes of file build rules.
-09439104801dd7e0b086055ff88431fc ../libs/src/secp256k1-stamp/secp256k1-build
-8d7db54f18e75b3bc38e98c79e048df6 ../libs/src/secp256k1-stamp/secp256k1-configure
-5c5a2f2d443b132644bf35aed8568453 ../libs/src/secp256k1-stamp/secp256k1-download
-3f342d72d20d03bccf83853ab957ea06 ../libs/src/secp256k1-stamp/secp256k1-install
-aa837bc1fe4c601738d4d2e840897995 ../libs/src/secp256k1-stamp/secp256k1-mkdir
-c53aaac1e64f2e68039dbe6207047eaa ../libs/src/secp256k1-stamp/secp256k1-patch
-61d2fdffe76e96ad1a89a1c7e17061d4 ../libs/src/secp256k1-stamp/secp256k1-update
+2df69c72cec00a62ef872e60f668b16b ../libs/secp256k1/src/secp256k1-stamp/secp256k1-build
+4c3ea0533510494df039fd734fa7c04b ../libs/secp256k1/src/secp256k1-stamp/secp256k1-configure
+e5adb209f3a7a736be6072dcabba819e ../libs/secp256k1/src/secp256k1-stamp/secp256k1-download
+64a4822361fcdb69798b4a5fa45abbff ../libs/secp256k1/src/secp256k1-stamp/secp256k1-install
+1e8139c76c69c8486abab3cb110597ac ../libs/secp256k1/src/secp256k1-stamp/secp256k1-mkdir
+68acf0162376be3c98552144d41944d7 ../libs/secp256k1/src/secp256k1-stamp/secp256k1-patch
+80664532c844db66bd8ed099360a2f96 ../libs/secp256k1/src/secp256k1-stamp/secp256k1-update
 fe053a71f61758a51175d0edc31afa3a CMakeFiles/secp256k1
-a2f4134f6bc5e6a7d75181ffca055028 CMakeFiles/secp256k1-complete
+3c23e1dec31cada81c5a918ac56a14f1 CMakeFiles/secp256k1-complete

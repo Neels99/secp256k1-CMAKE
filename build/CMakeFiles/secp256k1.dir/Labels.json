@@ -11,25 +11,25 @@
 			"file" : "/home/sl33n/repository/test_secp256k1/build/CMakeFiles/secp256k1-complete.rule"
 		},
 		{
-			"file" : "/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-install.rule"
+			"file" : "/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-install.rule"
 		},
 		{
-			"file" : "/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-mkdir.rule"
+			"file" : "/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-mkdir.rule"
 		},
 		{
-			"file" : "/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-download.rule"
+			"file" : "/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-download.rule"
 		},
 		{
-			"file" : "/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-update.rule"
+			"file" : "/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-update.rule"
 		},
 		{
-			"file" : "/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-patch.rule"
+			"file" : "/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-patch.rule"
 		},
 		{
-			"file" : "/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-configure.rule"
+			"file" : "/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-configure.rule"
 		},
 		{
-			"file" : "/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-build.rule"
+			"file" : "/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-stamp/secp256k1-build.rule"
 		}
 	],
 	"target" : 
