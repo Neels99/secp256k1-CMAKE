@@ -1,0 +1,5 @@
+/home/sl33n/repository/test_secp256k1/libs/lib/libsecp256k1.a
+/home/sl33n/repository/test_secp256k1/libs/include/secp256k1.h
+/home/sl33n/repository/test_secp256k1/libs/include/secp256k1_recovery.h
+/home/sl33n/repository/test_secp256k1/libs/include/secp256k1_ecdh.h
+/home/sl33n/repository/test_secp256k1/libs/include/secp256k1_sha256.h

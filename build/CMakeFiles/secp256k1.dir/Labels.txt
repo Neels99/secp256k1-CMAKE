@@ -1,0 +1,13 @@
+# Target labels
+ secp256k1
+# Source files and their labels
+/home/sl33n/repository/test_secp256k1/build/CMakeFiles/secp256k1
+/home/sl33n/repository/test_secp256k1/build/CMakeFiles/secp256k1.rule
+/home/sl33n/repository/test_secp256k1/build/CMakeFiles/secp256k1-complete.rule
+/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-install.rule
+/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-mkdir.rule
+/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-download.rule
+/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-update.rule
+/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-patch.rule
+/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-configure.rule
+/home/sl33n/repository/test_secp256k1/libs/src/secp256k1-stamp/secp256k1-build.rule

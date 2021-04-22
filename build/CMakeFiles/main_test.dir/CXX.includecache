@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/include/secp256k1.h
+stddef.h
+-
+
+../libs/include/secp256k1_ecdh.h
+secp256k1.h
+../libs/include/secp256k1.h
+
+../libs/include/secp256k1_recovery.h
+secp256k1.h
+../libs/include/secp256k1.h
+
+../libs/include/secp256k1_sha256.h
+stddef.h
+-
+stdint.h
+-
+
+/home/sl33n/repository/test_secp256k1/main.cpp
+iostream
+-
+secp256k1.h
+/home/sl33n/repository/test_secp256k1/secp256k1.h
+secp256k1.h
+-
+secp256k1_ecdh.h
+-
+secp256k1_recovery.h
+-
+secp256k1_sha256.h
+-
+memory
+-
+
