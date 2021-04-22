@@ -70,14 +70,14 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "main_test::@145eef247bfb46b6828c",
-					"jsonFile" : "target-main_test-Debug-336781fb063b376c6f7f.json",
+					"jsonFile" : "target-main_test-Debug-303fc442d7403af35210.json",
 					"name" : "main_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "secp256k1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-secp256k1-Debug-3bc5dc58e9611996368f.json",
+					"jsonFile" : "target-secp256k1-Debug-c46d7c0e6b3d1fab3b69.json",
 					"name" : "secp256k1",
 					"projectIndex" : 0
 				}

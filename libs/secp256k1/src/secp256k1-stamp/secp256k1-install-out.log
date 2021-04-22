@@ -1,15 +1,9 @@
 gmake[4]: Entering directory '/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build'
 gmake[5]: Entering directory '/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build'
 gmake[6]: Entering directory '/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build'
-Scanning dependencies of target gen_context
-gmake[6]: Leaving directory '/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build'
-gmake[6]: Entering directory '/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build'
-[ 25%] Building C object CMakeFiles/gen_context.dir/src/gen_context.c.o
-[ 50%] Linking C executable gen_context
 gmake[6]: Leaving directory '/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build'
 [ 50%] Built target gen_context
 gmake[6]: Entering directory '/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build'
-Scanning dependencies of target ecmult_static_context
 gmake[6]: Leaving directory '/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build'
 gmake[6]: Entering directory '/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build'
 gmake[6]: Leaving directory '/home/sl33n/repository/test_secp256k1/libs/secp256k1/src/secp256k1-build'

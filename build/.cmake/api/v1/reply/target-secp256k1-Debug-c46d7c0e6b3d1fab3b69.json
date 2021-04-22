@@ -1,33 +1,45 @@
 {
-	"backtrace" : 2,
+	"backtrace" : 4,
 	"backtraceGraph" : 
 	{
 		"commands" : 
 		[
 			"add_custom_target",
-			"ExternalProject_Add"
+			"ExternalProject_Add",
+			"include"
 		],
 		"files" : 
 		[
 			"/usr/share/cmake-3.16/Modules/ExternalProject.cmake",
+			"cmake/ProjectSecp256k1.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
 			{
-				"file" : 1
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 23,
-				"parent" : 0
+				"line" : 18,
+				"parent" : 2
 			},
 			{
 				"command" : 0,
 				"file" : 0,
 				"line" : 3182,
-				"parent" : 1
+				"parent" : 3
 			}
 		]
 	},
@@ -70,7 +82,7 @@
 	"sources" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 4,
 			"isGenerated" : true,
 			"path" : "build/CMakeFiles/secp256k1",
 			"sourceGroupIndex" : 0
