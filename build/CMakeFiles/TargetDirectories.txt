@@ -1,6 +1,8 @@
-/home/sl33n/repository/test_secp256k1/build/CMakeFiles/edit_cache.dir
 /home/sl33n/repository/test_secp256k1/build/CMakeFiles/rebuild_cache.dir
-/home/sl33n/repository/test_secp256k1/build/CMakeFiles/main_test.dir
+/home/sl33n/repository/test_secp256k1/build/CMakeFiles/edit_cache.dir
 /home/sl33n/repository/test_secp256k1/build/CMakeFiles/secp256k1.dir
 /home/sl33n/repository/test_secp256k1/build/libs/CMakeFiles/rebuild_cache.dir
 /home/sl33n/repository/test_secp256k1/build/libs/CMakeFiles/edit_cache.dir
+/home/sl33n/repository/test_secp256k1/build/src/CMakeFiles/edit_cache.dir
+/home/sl33n/repository/test_secp256k1/build/src/CMakeFiles/rebuild_cache.dir
+/home/sl33n/repository/test_secp256k1/build/src/CMakeFiles/main_test.dir

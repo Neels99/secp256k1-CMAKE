@@ -50,7 +50,6 @@ set_property(TARGET Secp256k1 PROPERTY INTERFACE_INCLUDE_DIRECTORIES "${SECP256K
 add_dependencies(Secp256k1 secp256k1)
 
 add_subdirectory(libs)
+add_subdirectory(src)
 
-add_executable(main_test main.cpp)
-target_link_libraries(main_test Secp256k1)
 # target_link_directories(main_test PUBLIC libs libs/include libs/lib libs/src ${CMAKE_SOURCE_DIR})

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/sl33n/repository/test_secp256k1/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -78,16 +67,27 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repository/test_secp256k1/build/CMakeFiles /home/sl33n/repository/test_secp256k1/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/sl33n/repository/test_secp256k1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repository/test_secp256k1/build/CMakeFiles /home/sl33n/repository/test_secp256k1/build/src/CMakeFiles/progress.marks
+	cd /home/sl33n/repository/test_secp256k1/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repository/test_secp256k1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/sl33n/repository/test_secp256k1/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,44 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/sl33n/repository/test_secp256k1/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/sl33n/repository/test_secp256k1/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sl33n/repository/test_secp256k1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named secp256k1
+# Convenience name for target.
+src/CMakeFiles/main_test.dir/rule:
+	cd /home/sl33n/repository/test_secp256k1/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main_test.dir/rule
+.PHONY : src/CMakeFiles/main_test.dir/rule
 
-# Build rule for target.
-secp256k1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 secp256k1
-.PHONY : secp256k1
+# Convenience name for target.
+main_test: src/CMakeFiles/main_test.dir/rule
 
-# fast build rule for target.
-secp256k1/fast:
-	$(MAKE) -f CMakeFiles/secp256k1.dir/build.make CMakeFiles/secp256k1.dir/build
-.PHONY : secp256k1/fast
-
-#=============================================================================
-# Target rules for targets named main_test
-
-# Build rule for target.
-main_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main_test
 .PHONY : main_test
 
 # fast build rule for target.
 main_test/fast:
-	$(MAKE) -f src/CMakeFiles/main_test.dir/build.make src/CMakeFiles/main_test.dir/build
+	cd /home/sl33n/repository/test_secp256k1/build && $(MAKE) -f src/CMakeFiles/main_test.dir/build.make src/CMakeFiles/main_test.dir/build
 .PHONY : main_test/fast
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/sl33n/repository/test_secp256k1/build && $(MAKE) -f src/CMakeFiles/main_test.dir/build.make src/CMakeFiles/main_test.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/sl33n/repository/test_secp256k1/build && $(MAKE) -f src/CMakeFiles/main_test.dir/build.make src/CMakeFiles/main_test.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/sl33n/repository/test_secp256k1/build && $(MAKE) -f src/CMakeFiles/main_test.dir/build.make src/CMakeFiles/main_test.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -142,10 +158,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... secp256k1"
+	@echo "... rebuild_cache"
 	@echo "... main_test"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -157,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sl33n/repository/test_secp256k1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

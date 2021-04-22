@@ -24,7 +24,7 @@ stddef.h
 stdint.h
 -
 
-/home/sl33n/repository/test_secp256k1/main.cpp
+/home/sl33n/repository/test_secp256k1/src/main.cpp
 iostream
 -
 secp256k1.h

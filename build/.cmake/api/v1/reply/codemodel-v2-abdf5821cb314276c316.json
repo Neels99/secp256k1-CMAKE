@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -18,7 +19,6 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
 						1
 					]
 				},
@@ -31,6 +31,20 @@
 					"parentIndex" : 0,
 					"projectIndex" : 0,
 					"source" : "libs"
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
 			"name" : "Debug",
@@ -40,7 +54,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "te",
 					"targetIndexes" : 
@@ -53,9 +68,9 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 0,
-					"id" : "main_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main_test-Debug-0b7502bd957e34735554.json",
+					"directoryIndex" : 2,
+					"id" : "main_test::@145eef247bfb46b6828c",
+					"jsonFile" : "target-main_test-Debug-336781fb063b376c6f7f.json",
 					"name" : "main_test",
 					"projectIndex" : 0
 				},

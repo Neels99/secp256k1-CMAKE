@@ -1,1 +1,0 @@
-/bin/g++-8  -g   CMakeFiles/main_test.dir/main.cpp.o  -o main_test  ../libs/secp256k1/lib/libsecp256k1.a 

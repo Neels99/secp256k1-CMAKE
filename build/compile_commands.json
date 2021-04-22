@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/sl33n/repository/test_secp256k1/build",
-  "command": "/bin/g++-8   -I/home/sl33n/repository/test_secp256k1 -isystem /home/sl33n/repository/test_secp256k1/libs/secp256k1/include  -g   -o CMakeFiles/main_test.dir/main.cpp.o -c /home/sl33n/repository/test_secp256k1/main.cpp",
-  "file": "/home/sl33n/repository/test_secp256k1/main.cpp"
+  "directory": "/home/sl33n/repository/test_secp256k1/build/src",
+  "command": "/bin/g++-8   -I/home/sl33n/repository/test_secp256k1 -isystem /home/sl33n/repository/test_secp256k1/libs/secp256k1/include  -g   -o CMakeFiles/main_test.dir/main.cpp.o -c /home/sl33n/repository/test_secp256k1/src/main.cpp",
+  "file": "/home/sl33n/repository/test_secp256k1/src/main.cpp"
 }
 ]

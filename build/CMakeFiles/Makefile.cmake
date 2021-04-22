@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
   "../libs/CMakeLists.txt"
   "../libs/secp256k1/tmp/secp256k1-cfgcmd.txt.in"
+  "../src/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
@@ -123,10 +124,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "../libs/secp256k1/src/secp256k1-stamp/secp256k1-install-Debug.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "libs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main_test.dir/DependInfo.cmake"
   "CMakeFiles/secp256k1.dir/DependInfo.cmake"
+  "src/CMakeFiles/main_test.dir/DependInfo.cmake"
   )
